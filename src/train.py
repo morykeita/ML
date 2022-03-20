@@ -1,12 +1,11 @@
 import os
-import cffi
 from matplotlib.pyplot import axis
 from sklearn import preprocessing
 from sklearn import ensemble
 import pandas as pd
 
 FOLD = os.environ.get('FOLD')
-TRAINING_DATA = os.environ.get('TRAINING_DATA')
+TRAINING_DATA = int(os.environ.get('TRAINING_DATA'))
 
 FOLD_MAPPING = {
     0:[1,2,3,4],
