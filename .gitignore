@@ -162,6 +162,10 @@ cython_debug/
 * .pkl
 * .pth
 
+# other files
+
+* .DS_Store
+
 
 
 
